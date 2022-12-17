@@ -1,8 +1,8 @@
 class OpensearchAT1 < Formula
   desc "Open source distributed and RESTful search engine"
   homepage "https://github.com/opensearch-project/OpenSearch"
-  url "https://github.com/opensearch-project/OpenSearch/archive/1.3.6.tar.gz"
-  sha256 "9156f4cbd6b39a1daba11b5513ed3db13b2d961dc992603d6d6bc2b3572c4bda"
+  url "https://github.com/opensearch-project/OpenSearch/archive/1.3.7.tar.gz"
+  sha256 "49e5eeba40979ab5e85536f19bca98172b229baa282813c1816aa6583710f03d"
   license "Apache-2.0"
 
   keg_only :versioned_formula
