@@ -1,7 +1,6 @@
 name: brew test-bot
 on:
   push:
-    branches:
   pull_request:
 jobs:
   test-bot:
