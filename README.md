@@ -6,7 +6,7 @@ Homebrew tap for OpenSearch maintenance releases
 
 Tap the formula repository:
 
-    brew tap isaaceindhoven/opensearch-maintenance
+    brew tap iodigital-com/opensearch-maintenance
 
 Install the `opensearch@1` formula:
 
