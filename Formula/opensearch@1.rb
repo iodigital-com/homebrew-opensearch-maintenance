@@ -1,4 +1,6 @@
 class OpensearchAT1 < Formula
+  # Warning: this formula has been deprecated because it is deprecated upstream!
+  # See the [OpenSearch maintenance policy for details](https://opensearch.org/releases/#maintenance-policy).
   desc "Open source distributed and RESTful search engine"
   homepage "https://github.com/opensearch-project/OpenSearch"
   url "https://github.com/opensearch-project/OpenSearch/archive/refs/tags/1.3.20.tar.gz"
@@ -6,6 +8,8 @@ class OpensearchAT1 < Formula
   license "Apache-2.0"
 
   keg_only :versioned_formula
+
+  deprecate! date: "2025-05-06", because: :deprecated_upstream
 
   depends_on "gradle@6" => :build
   depends_on "openjdk"
